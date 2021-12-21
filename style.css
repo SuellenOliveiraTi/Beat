@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+    background: #129799;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.menu li{
+    display: flex;
+    padding: 10px;/*espaçamento do menu*/
+    height: 45vw;/*altura*/
+    margin-right:  5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #fff;/*cor das letra do menu*/  
+}
+
+.menu li:hover{
+    cursor: pointer;
+    color: #fff;/*cor da area do clique menu*/
+    font-weight: bolder;
+}
+
+.box-header{
+    background-image: url("img/life-4244797_640\ 1.png");
+    width: 40%;
+    height: 50vh;
+    margin-top: -35rem;
+    margin-right:  rem;
+    margin-left: 55rem;
+    background-repeat: no-repeat;
+}
+
+h1{ 
+    font-weight: bold;
+    color: rgba(255, 248, 248, 0.966);
+    font-size: 70px;
+
+    position: absolute;
+    margin-left: -43rem;
+    left: 50%;
+    top: 32%;
+    transform: translate(2%,30%);
+    width: 100%;
+}
+
+main{
+    
+    
+}
+
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu2 li{
+    display: flex;
+    padding: 5px;/*espaçamento do menu*/
+    height: 10vh;/*altura*/
+    margin-right: 20rem;
+    
+    margin-top: -10rem;
+    text-decoration: none;
+    color: #fff;/*cor das letra do menu*/  
+
+    font-size: 20px;
+    position: flex;
+    top: 50%;
+    transform: translate(10%,20%);
+    width: 100%;
+}
+    
