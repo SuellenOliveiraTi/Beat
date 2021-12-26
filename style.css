@@ -63,13 +63,18 @@ h1{
     width: 100%;
 }
 
-main{
-    
-    
-}
-
-
 .menu2{
+    font-weight: bold;
+    color: rgba(255, 248, 248, 0.966);
+    font-size: 70px;
+
+    position: relative;
+    margin-left: -43rem;
+    left: 50%;
+    top: 32%;
+    transform: translate(2%,30%);
+    width: 100%;
+
     display: flex;
     justify-content: space-around;
     
@@ -91,4 +96,151 @@ main{
     transform: translate(10%,20%);
     width: 100%;
 }
+
+.container-galeria{
+   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background: #FFA185;
+    align-items: center;
+}
+
+.frases{
+    display: flexbox;
+    width: 10%;
+    margin-top: -35%;
     
+}
+
+h2{
+    display: flex;
+    font-weight: bold;
+    color: rgba(255, 248, 248, 0.966);
+    font-size: 50px;
+    
+    position: relative;
+    
+    width: 20px;
+    height: 50px;
+    left: 50px;
+    top: 05px;
+    
+}
+
+.p1{
+    font-size: 30px;
+    
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    left: 50px;
+    top: -1rem; 
+
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.p2{
+    font-size: 30px;
+    
+    position: relative;
+    width: 1500px;
+    height: 100px;
+    left: 50px;
+    top: -7rem; 
+   
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.fotos{
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: blue;
+
+
+}
+
+.fotos img{
+    padding: 1rem;
+      width: 20vw; 
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    margin-top: 1rem;
+
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    left: 50rem;
+    top: 83rem;
+}
+
+footer{
+    background-color: #129799;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    margin-top: 0rem;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  padding-left: 6rem;
+}
+
+.redes img:hover{
+    cursor: pointer; 
+}
+
+.lista{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+    max-width: 2rem;
+    margin-top: 4rem; 
+
+    color: rgba(255, 248, 248, 0.966);
+    font-size: 70px;
+
+    position: relative;
+    margin-left: -20rem;
+    left: 2px;
+    top: 32%;
+    transform: translate(2%,30%);
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.lista li{
+    display: flex;
+    padding: 15px;/*espaçamento do menu*/
+    height:4rem;/*altura*/
+    margin-right: 10rem;
+    
+    margin-top: -5rem;
+    text-decoration: none;
+    color: #fff;/*cor das letra do menu*/  
+
+    font-size: 30px;
+    position: flex;
+    top: 50%;
+    transform: translate(10%,20%);
+    width: 100%;
+}
