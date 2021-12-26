@@ -240,7 +240,7 @@ footer{
 
     font-size: 30px;
     position: flex;
-    top: 50%;
+    top: 40%;
     transform: translate(10%,20%);
     width: 100%;
 }
